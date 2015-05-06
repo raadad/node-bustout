@@ -1,0 +1,31 @@
+{
+    "author": "Raadad Elsleiman <raadad@gmail.com> (http://elsleiman.com)",
+    "contributors": [],
+    "name": "bustout",
+    "description": "Bustout out of your code into a REPL - Great for Debugging",
+    "tags": [
+        "repl",
+        "debug",
+        "workflow",
+        "test",
+        "console"
+    ],
+    "version": "1.0.1",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/raadad/node-bustout.git"
+    },
+    "bugs": {
+        "url": "https://github.com/raadad/node-bustout/issues"
+    },
+    "main": "bustout.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "optionalDependencies": {}
+}
