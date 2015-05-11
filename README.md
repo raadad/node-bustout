@@ -9,5 +9,6 @@ in any part of your code add:
 
     require('bustout')(context);
 
-the context is a reference to the variables you want to inspect, or be able to execute.
+the context is a reference to the variables you want to inspect, or be able to execute. This can be accessed inside the repl as context.
+
 

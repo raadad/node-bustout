@@ -12,7 +12,7 @@ module.exports = function(context) {
         prompt: "debug >",
         input: process.stdin,
         output: process.stdout
-    }), context = context;
+    }).context.context = context;
 
     process.exit = function() {
         console.log("System Tried To exit");
